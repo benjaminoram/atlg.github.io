@@ -1,0 +1,91 @@
+.hidden{display:none;}
+
+#to_top {
+
+}
+
+body {
+	background-repeat: repeat;
+	background-image: url(../img/background-blue.jpg);
+	color: #dbdbdb;
+	text-align: left;
+	font-size: 80%;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #d5cfc5;
+}
+
+a {	border-width: 0px;
+	color: #72a6e6;
+	border-style: none;
+	text-decoration: underline dotted;
+}
+
+a:hover {
+	color: #0080ff;
+}
+
+.MainPageBox {
+	line-height: 2.2em;
+	font-size: 1em;
+	float: none;
+	clear: left;
+	margin-top: 45px;
+	margin-bottom: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	clear: left;
+	border: 0;
+	width: 100%;
+	color: #7f7f7f;
+	background-color: #7f7f7f;
+	height: 1px;
+	float: clear;
+}
+
+#lowest-box {
+
+	margin-top: 35px;
+
+	padding-bottom: 30px;
+
+}
+
+
+/* Typoraphy */
+p, ul, ol { padding-bottom: 0.7em; padding-top: 0em; margin-left: 0; margin-bottom: 0em; margin-right: 0; margin-top: 0px;}
+h0 {font-size: 250%;}
+h1 {font-size: 140%;}
+h2 {font-size: 120%;}
+h3 {font-weight: bold; font-size: 116%}
+h4 {font-size: 106%}
+h5 {font-size: 100%}
+h6 {font-size: 96%}
+
+        /* Thumbnail Grids */
+        
+#contentBox {
+    margin: 0 auto;
+    width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+}
+
+#contentBox .column {
+    float: left;
+    margin: 0;
+    width: 32%;
+}
+
+#endsection {
+    float: clear;
+    margin: 0;
+    width: 33%;
+}
