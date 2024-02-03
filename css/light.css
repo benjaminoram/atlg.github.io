@@ -98,3 +98,9 @@ h6 {font-size: 96%}
     margin: 0;
     width: 33%;
 }
+
+.reset {
+	float: none;
+	clear: left;
+	padding-top: 10px;
+}
