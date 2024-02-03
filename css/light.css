@@ -71,7 +71,7 @@ h6 {font-size: 96%}
 
         /* Thumbnail Grids */
         
-#contentBox {
+.contentBox {
     margin: 0 auto;
     width: 100%;
 	padding-bottom: 0px;
@@ -79,7 +79,7 @@ h6 {font-size: 96%}
 	margin-bottom: 30px;
 }
 
-#contentBox .column {
+.column {
     float: left;
     margin: 0;
     width: 32%;
