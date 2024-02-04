@@ -42,11 +42,8 @@ hr {
 	margin-bottom: 30px;
 	margin-top: 30px;
 	clear: left;
-	border: 0;
+	border-top: 1px dashed white;
 	width: 100%;
-	color: #7f7f7f;
-	background-color: #7f7f7f;
-	height: 1px;
 	float: clear;
 }
 
