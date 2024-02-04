@@ -20,6 +20,12 @@ a {	border-width: 0px;
 	text-decoration: underline dotted;
 }
 
+h2 a {	border-width: 0px;
+	color: #dadada;
+	border-style: none;
+	text-decoration: none;
+}
+
 a:hover {
 	color: #0080ff;
 }
@@ -67,8 +73,6 @@ h3 {font-weight: bold; font-size: 116%}
 h4 {font-size: 106%}
 h5 {font-size: 100%}
 h6 {font-size: 96%}
-
-        /* Thumbnail Grids */
         
 .contentBox {
     margin: 0 auto;
