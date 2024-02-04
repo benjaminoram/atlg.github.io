@@ -21,12 +21,24 @@ a {
 	text-decoration: underline dotted;
 }
 
-a.linkbutton {	
+a.linkbutton  {	
 	padding: 3px;
-	color: #001a3a;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #002f3a;
 	border-style: none;
 	text-decoration: none;
 	background-color: #ababab;
+}
+
+a.linkbutton::after  {	
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+	margin: 0 3px 0 5px;
+}
+
+a.linkbutton:hover {	
+	color: #ffffff;
+	background-color: #002f3a;
 }
 
 h2 a {	border-width: 0px;
