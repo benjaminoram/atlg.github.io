@@ -14,10 +14,19 @@ body {
 	background-color: #2D535E;
 }
 
-a {	border-width: 0px;
+a {
+	border-width: 0px;
 	color: #72a6e6;
 	border-style: none;
 	text-decoration: underline dotted;
+}
+
+a.linkbutton {	
+	padding: 3px;
+	color: #001a3a;
+	border-style: none;
+	text-decoration: none;
+	background-color: #ababab;
 }
 
 h2 a {	border-width: 0px;
