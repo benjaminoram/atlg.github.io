@@ -43,6 +43,8 @@ hr {
 	margin-top: 30px;
 	clear: left;
 	border-top: 1px dotted white;
+	border-bottom: 0px none;
+	background-color: none;
 	width: 100%;
 	float: clear;
 }
