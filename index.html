@@ -36,8 +36,8 @@ insights.trackPages();
 
 <br>
 
-
-<h4 style="font-weight: normal; color: #9c9c9c;">
+<div id="navbar">
+<h4  style="font-weight: normal; color: #9c9c9c;">
 
 	Contents: 
 	
@@ -56,8 +56,7 @@ insights.trackPages();
 	<a href="#Contact">Contact</a>
 	
 </h4>
-
-
+</div>
 
 <!--
 <div style="margin: 0 auto; width: 100%;">
@@ -232,7 +231,7 @@ If you would like to contact the ATLG, please use the <a class="linkbutton" href
 <br>
 
 
-Page design by Ben Oram | Revision v17c | © ATLG UK 2024 
+Page design by Ben Oram | Revision v18a | © ATLG UK 2024 
 </p>	
 <br>
 
@@ -241,6 +240,21 @@ Page design by Ben Oram | Revision v17c | © ATLG UK 2024
 
 </div>
 
-<!--Hidden Divs For Videos-->
+<!--Navbar Logic-->
+
+<script>
+	window.onscroll = function() {myFunction()};
+	
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+	
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	  } else {
+		navbar.classList.remove("sticky");
+	  }
+	}
+</script>
 
 </body></html>
