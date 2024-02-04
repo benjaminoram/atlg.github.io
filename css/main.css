@@ -41,10 +41,11 @@ a.linkbutton:hover {
 	background-color: #002f3a;
 }
 
-h2 a {	border-width: 0px;
+h4 a {	border-width: 0px;
 	color: #dadada;
 	border-style: none;
 	text-decoration: none;
+	font-weight: regular;
 }
 
 a:hover {
@@ -94,7 +95,9 @@ h3 {font-weight: bold; font-size: 116%}
 h4 {font-size: 106%}
 h5 {font-size: 100%}
 h6 {font-size: 96%}
-        
+
+/* Columns */
+
 .contentBox {
     margin: 0 auto;
     width: 100%;
