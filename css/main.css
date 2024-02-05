@@ -64,6 +64,7 @@ a:hover {
 	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
+	position: relative;
 }
 
 hr {
@@ -118,12 +119,6 @@ h6 {font-size: 96%}
 	margin-bottom: 10px;
 }
 
-#endsection {
-    float: clear;
-    margin: 0;
-    width: 33%;
-}
-
 .reset {
 	float: none;
 	clear: left;
@@ -150,3 +145,8 @@ h6 {font-size: 96%}
   .sticky + .content {
 	padding-top: 30px;
   }
+
+
+
+
+  

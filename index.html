@@ -7,9 +7,37 @@
 <link rel="stylesheet" href="css/main.css" type="text/css"/>
 
 <style>
+
 html {
   scroll-behavior: smooth;
 }
+
+.stt {
+    text-align: center;
+	line-height: 40px;
+	position: fixed;
+  right: 7rem;
+  bottom: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(43, 72, 75)  center no-repeat;
+  opacity: 0.7;
+  color:white;
+  font-size: 200%;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.stt:hover {
+  opacity: 0.8;
+}
+.stt:focus {
+  opacity: 0.9;
+}
+.stt:active {
+  opacity: 1;
+}
+
 </style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -23,10 +51,12 @@ insights.init('ryFbVJ_b0f1Wb5MW');
 insights.trackPages();
 </script>
 
+
+
 </head>
 
 <body>
-	<div id="Welcome"></div>
+	<div id="Top"></div>
 <div class="MainPageBox" style="padding-top:5px;">
 
 <br>
@@ -36,7 +66,7 @@ insights.trackPages();
 
 
 
-<img src="img/atlg_logo_sq.svg" alt="" width="160" height="160"/><br>
+<img src="img/atlg_logo_sq.png" alt="" width="160" height="174"/><br>
 
 <br>
 
@@ -62,57 +92,27 @@ insights.trackPages();
 </h4>
 </div>
 
-<!--
-<div style="margin: 0 auto; width: 100%;">
-    
-    <div style="float: left; margin: 0;  width: 20;">
-		<br>
-		<img src="img/atlg_logo_sq.svg" alt="" width="180" height="190"/><br>
-    </div>
-
-    <div style="float: left; margin: 0;  padding-left: 100px; width: 80;	font-size: 1em;line-height: 2em;;">
-		<h4 style="font-weight: normal">
-			<a href="#Welcome">Welcome</a><br>
-
-			<a href="#HowtoJoin">How to Join</a><br>
-			
-			<a href="#PublicMembers">Public Members</a><br>
-			
-			<a href="#EmailGroup">Email Group</a><br>
-			
-			<a href="#Meetings">Meetings</a><br>
-			
-			<a href="#WorkingGroups">Working Groups</a><br>
-			
-			<a href="#Contact">Contact</a>
-			
-		</h4>
-	</div>
-
-</div>
--->
-
 
 <div class="reset">
 <h1>Welcome</h1>
 </div>
 <p>The Architectural Technical Leads Group (ATLG) is a forum for architectural leads to discuss technical issues, share knowledge and resources, and drive improvement in the UK construction industry.</p>
-<div id="HowtoJoin"></div>
+
 <p>The group is made up of 110 members in 60 member practices across all sectors and varying in size from 5 to 2000 staff.</p>
 
 
 <hr>
 
-<h1>How to Join</h1>
+<h1 id="HowtoJoin">How to Join</h1>
 
 <p>The ATLG is open to all architects, architectural technologists, and building designers in the UK.</p>
-<div id="PublicMembers"></div>
+
 <p>To join the ATLG, please apply using the <a class="linkbutton" href="https://forms.gle/eJC95t5tDzj1do13A" target="_blank" rel="noopener noreferrer">Membership Form</a></p>
 
 
 <hr>
 
-<h1>Public Members</h1>
+<h1 id="PublicMembers">Public Members</h1>
 
 <p>
 Public members of the group have agreed to be listed on the ATLG website and media pages.
@@ -152,20 +152,20 @@ Public members of the group have agreed to be listed on the ATLG website and med
 	</div>
 
 </div>
-<div id="EmailGroup"></div>
+
 <div class="reset">
 If your practice would like to be added to the public list, please contact ATLG.
 </div>
 
 <hr>
 
-<h1>Email Group</h1>
-<div id="Meetings"></div>
+<h1 id="EmailGroup">Email Group</h1>
+
 <p>The ATLG operates a listserver / email group system for members. Emails from members to the group are distributed to other members, providing a discussion platform.</p>
 
 <hr>
 
-<h1>Meetings</h1>
+<h1 id="Meetings">Meetings</h1>
 
 <p>The main ATLG group meets once a month in an online meeting open to all members, see dates below. Most meetings include a short guest presentation and Q&A, and polling of members on a technical subject in the meeting.</p>
 
@@ -191,15 +191,16 @@ If your practice would like to be added to the public list, please contact ATLG.
 <li>Meeting 7 - Hanna Clarke - Construction Products Association - CCPI, Draft 8670-2 Construction Products Competence Standard</li>
 
 </ul>
-<div id="WorkingGroups"></div>
+</div>
+
 <p>All members are invited to put forward speakers, items for discussion, or public questions </p>
 
-</div>
+
 
 
 <hr>
 
-<h1>Working Groups</h1>
+<h1 id="WorkingGroups">Working Groups</h1>
 
 <p>The ATLG currently has three working groups meeting regularly. Two ongoing groups to address the Building Safety Act / Building Regulations changes that came into force in October 2023, and a group responding to the Government Future Buildings Standards consultation 2023.</p>
 
@@ -221,12 +222,11 @@ If your practice would like to be added to the public list, please contact ATLG.
 
 All ATLG members are welcome to join any of the working groups. Groups typically report back to the main ATLG at quarterly intervals.
 
-<div id="Contact"></div>
+<div ></div>
 
 <hr>
 
-<div class="endsection">
-<h1>Contact</h1>
+<h1 id="Contact">Contact</h1>
 <p>
 
 If you would like to contact the ATLG, please use the <a class="linkbutton" href="https://forms.gle/eMPAAE73AS3QemEg8" target="_blank" rel="noopener noreferrer">Public Contact Form</a>
@@ -238,30 +238,15 @@ If you would like to contact the ATLG, please use the <a class="linkbutton" href
 <br>
 
 
-Page design by Ben Oram | Revision v18d | © ATLG UK 2024 
+Page design by Ben Oram | Revision v19a | © ATLG UK 2024 
 </p>	
 <br>
 
+<a href='#' class="stt" title="scroll to top"> ߍ </a>
 
 </div>
 
-</div>
 
-<!--Navbar Logic-->
 
-<script>
-	window.onscroll = function() {myFunction()};
-	
-	var navbar = document.getElementById("navbar");
-	var sticky = navbar.offsetTop;
-	
-	function myFunction() {
-	  if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky")
-	  } else {
-		navbar.classList.remove("sticky");
-	  }
-	}
-</script>
 
 </body></html>
