@@ -125,27 +125,6 @@ h6 {font-size: 96%}
 	padding-top: 10px;
 }
 
-/* Style the navbar */
-#navbar {
-	overflow: hidden;
-	background-image: url(../img/background-blue.jpg);
-	background-repeat: repeat-y; /* for vertical repeat */
-	background-repeat: repeat-x; /* for horizontal repeat */
-	background-color: #2D535E;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-	padding-top: 30px;
-  }
-
 
 
 
