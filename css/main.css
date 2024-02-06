@@ -1,9 +1,5 @@
 .hidden{display:none;}
 
-#to_top {
-
-}
-
 body {
 	background-repeat: repeat;
 	background-image: url(../img/background-blue.jpg);
@@ -19,6 +15,17 @@ a {
 	color: #72a6e6;
 	border-style: none;
 	text-decoration: underline dotted;
+}
+
+a:hover {
+	color: #0080ff;
+}
+
+h4 a {	border-width: 0px;
+	color: #dadada;
+	border-style: none;
+	text-decoration: none;
+	font-weight: regular;
 }
 
 a.linkbutton  {	
@@ -39,17 +46,6 @@ a.linkbutton::after  {
 a.linkbutton:hover {	
 	color: #ffffff;
 	background-color: #002f3a;
-}
-
-h4 a {	border-width: 0px;
-	color: #dadada;
-	border-style: none;
-	text-decoration: none;
-	font-weight: regular;
-}
-
-a:hover {
-	color: #0080ff;
 }
 
 .MainPageBox {
@@ -77,12 +73,6 @@ hr {
 	width: 100%;
 	float: clear;
 }
-
-#lowest-box {
-	margin-top: 35px;
-	padding-bottom: 30px;
-}
-
 
 /* Typoraphy */
 p, ul, ol { padding-bottom: 0.7em; padding-top: 0em; margin-left: 0; margin-bottom: 0em; margin-right: 0; margin-top: 0px;}
