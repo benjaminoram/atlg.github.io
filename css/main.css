@@ -21,11 +21,23 @@ a:hover {
 	color: #0080ff;
 }
 
-h4 a {	border-width: 0px;
-	color: #dadada;
-	border-style: none;
+#listofcontents {
+	color: #9c9c9c;
+	font-size: 106%;
+	font-weight: normal; 
 	text-decoration: none;
-	font-weight: regular;
+	margin-left: 70px;
+	text-indent: -70px;
+}
+
+#listofcontents a {
+	color: #dadada;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#listofcontents a:hover {
+	color: #063638;
 }
 
 a.linkbutton  {	
