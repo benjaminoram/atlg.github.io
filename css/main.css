@@ -59,6 +59,7 @@ a.linkbutton  {
 	border-style: none;
 	text-decoration: none;
 	background-color: #ababab;
+	white-space:nowrap;
 }
 
 a.linkbutton::after  {	
