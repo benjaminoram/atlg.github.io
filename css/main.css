@@ -27,16 +27,17 @@ a:hover {
 	font-weight: normal; 
 	line-height: 1.65em;
 	text-decoration: none;
-	margin-left: 70px;
-	text-indent: -70px;
+	margin-left: 4.75em;
+	text-indent: -4.75em;
 	margin-top:25px;
 	margin-bottom:20px;
 }
 
 #listofcontents a {
 	padding: 3px;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 0.4em;
 	color: #dadada;
 	text-decoration: none;
 	font-weight: normal;
@@ -51,11 +52,11 @@ a:hover {
 
 a.linkbutton  {	
 	padding: 3px;
-	padding-left: 6px;
-	padding-right: 6px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 0.4em;
 	color: #002f3a;
 	border-style: none;
-	border-radius: 2px;
 	text-decoration: none;
 	background-color: #ababab;
 }
