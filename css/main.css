@@ -25,9 +25,12 @@ a:hover {
 	color: #9c9c9c;
 	font-size: 106%;
 	font-weight: normal; 
+	line-height: 1.65em;
 	text-decoration: none;
 	margin-left: 70px;
 	text-indent: -70px;
+	margin-top:15px;
+	margin-bottom:8px;
 }
 
 #listofcontents a {
@@ -61,7 +64,7 @@ a.linkbutton:hover {
 }
 
 .MainPageBox {
-	line-height: 2.2em;
+	line-height: 2.0em;
 	font-size: 1em;
 	float: none;
 	clear: left;
