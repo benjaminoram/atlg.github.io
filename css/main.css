@@ -34,13 +34,19 @@ a:hover {
 }
 
 #listofcontents a {
+	padding: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
 	color: #dadada;
 	text-decoration: none;
 	font-weight: normal;
 }
 
 #listofcontents a:hover {
-	color: #063638;
+	color: #002f3a;
+	border-style: none;
+	text-decoration: none;
+	background-color: #ababab;
 }
 
 a.linkbutton  {	
