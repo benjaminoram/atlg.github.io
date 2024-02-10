@@ -116,7 +116,7 @@ h6 {font-size: 96%}
     width: 32%;
 }
 
-.Para-Inset {
+.para-Inset {
     margin: 0 auto;
     width: 100%;
 	padding-bottom: 0px;
@@ -130,7 +130,36 @@ h6 {font-size: 96%}
 	padding-top: 10px;
 }
 
+.stt {
+    text-align: center;
+	line-height: 40px;
+	position: fixed;
+  right: 7rem;
+  bottom: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(43, 72, 75)  center no-repeat;
+  opacity: 0.7;
+  color:white;
+  font-size: 200%;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.stt:hover {
+  opacity: 0.8;
+}
+.stt:focus {
+  opacity: 0.9;
+}
+.stt:active {
+  opacity: 1;
+}
 
-
+#logo {
+	width:25%;
+	height:auto;
+	max-width:200px;
+}
 
   
