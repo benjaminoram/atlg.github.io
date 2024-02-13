@@ -23,7 +23,7 @@ section {
 
 a {
 	border-width: 0px;
-	color: #72a6e6;
+	color: #cfcfcf;
 	border-style: none;
 	text-decoration: underline dotted;
 }
@@ -137,5 +137,3 @@ h6 {font-size: 96%}
 	height:auto;
 	max-width:180px;
 }
-
-  
