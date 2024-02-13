@@ -25,7 +25,8 @@ a {
 	border-width: 0px;
 	color: #cfcfcf;
 	border-style: none;
-	text-decoration: underline dotted;
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
 }
 
 a:hover {
