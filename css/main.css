@@ -33,8 +33,9 @@ a:hover {
 }
 
 #NavigationBar {
-	background-repeat: repeat;
-	background-image: url(../img/background-blue.jpg);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	background-image: url(../img/navbar-background-blue.png);
 	margin-top: 40px;
 	margin-left: 10%;
 	margin-right: 10%;
