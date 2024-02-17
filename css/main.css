@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-	color: #0080ff;
+	color: #03272f;
 }
 
 #NavigationBar {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 #listofcontents a:hover {
-	color: #002f3a;
+	color: #004757;
 	border-style: none;
 	text-decoration: none;
 	background-color: #ababab;
