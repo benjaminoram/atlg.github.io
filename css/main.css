@@ -17,33 +17,38 @@ body {
 section {
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
 }
 
 a {
-	border-width: 0px;
+	border-width: 0em;
 	color: #cfcfcf;
 	border-style: none;
 	text-decoration: underline;
 	text-underline-offset: 0.15em;
+	padding: 0.15em;
+	padding-left: 0.35em;
+	padding-right: 0.35em;
 }
 
 a:hover {
 	color: #03272f;
+	background-color: #ababab;
 }
 
 #NavigationBar {
 	background-position: left bottom;
 	background-repeat: repeat-x;
 	background-image: url(../img/navbar-background-blue.png);
-	margin-top: 40px;
+	margin-top: 2em;
+	margin-bottom: 0.3em;
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
 	/* Pay special attention here! */
 	position: sticky;
-	top: 0px;
+	top: 0em;
 }
 
 #listofcontents {
@@ -52,12 +57,12 @@ a:hover {
 	font-weight: normal; 
 	line-height: 2.5em;
 	text-decoration: none;
-	margin-top:25px;
-	margin-bottom:20px;
+	margin-top:2em;
+	margin-bottom:0em;
 }
 
 #listofcontents a {
-	padding: 3px;
+	padding: 0.15em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	border-radius: 0.4em;
@@ -74,7 +79,7 @@ a:hover {
 }
 
 a.linkbutton  {	
-	padding: 3px;
+	padding: 0.15em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	border-radius: 0.4em;
@@ -87,7 +92,7 @@ a.linkbutton  {
 
 a.linkbutton::after  {	
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-	margin: 0 3px 0 5px;
+	margin: 0 0.15em 0 0.25em;
 }
 
 a.linkbutton:hover {	
@@ -98,14 +103,14 @@ a.linkbutton:hover {
 hr {
 	clear: left;
 	border-top: 1px dotted white;
-	border-bottom: 0px none;
+	border-bottom: 0em none;
 	background-color: none;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
 /* Typoraphy */
-p, ul, ol { padding-bottom: 0.7em; padding-top: 0em; margin-left: 0; margin-bottom: 0em; margin-right: 0; margin-top: 0px;}
+p, ul, ol { padding-bottom: 0.7em; padding-top: 0em; margin-left: 0; margin-bottom: 0em; margin-right: 0; margin-top: 0em;}
 
 h0 {font-size: 250%;}
 h1 {font-size: 140%;}
@@ -120,22 +125,15 @@ h6 {font-size: 96%}
 .ColumnBox {
     margin: 0 auto;
     width: 80%;
-	padding-bottom: 0px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	column-width: 220px;
+	padding-bottom: 0em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	column-width: 15em;
 }
 
-.para-Inset {
-    margin: 0 auto;
-    width: 100%;
-	padding-bottom: 0px;
-	padding-left: 20px;
-	margin-bottom: 10px;
-}
 
 #logo {
 	width:25%;
 	height:auto;
-	max-width:180px;
+	max-width:11em;
 }
