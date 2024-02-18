@@ -2,7 +2,7 @@
 
 body {
 	background-repeat: repeat;
-	background-image: url(../img/background-blue.jpg);
+	background-image: url(../img/background-teal.jpg);
 	color: #dbdbdb;
 	text-align: left;
 	font-size: 90%;
@@ -40,7 +40,7 @@ a:hover {
 #NavigationBar {
 	background-position: left bottom;
 	background-repeat: repeat-x;
-	background-image: url(../img/navbar-background-blue.png);
+	background-image: url(../img/navbar-background-teal.png);
 	margin-top: 2em;
 	margin-bottom: 0.3em;
 	margin-left: 10%;
