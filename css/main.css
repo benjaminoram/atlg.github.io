@@ -80,6 +80,7 @@ a:hover {
 
 a.linkbutton  {	
 	padding: 0.15em;
+	padding-top: 0.25em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	border-radius: 0.4em;
