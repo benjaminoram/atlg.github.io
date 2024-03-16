@@ -1,4 +1,8 @@
-.hidden{display:none;}
+:root {
+	font-size: calc(1rem + 0.25vw);
+  }
+  
+  .hidden{display:none;}
 
 body {
 	background-repeat: repeat;
@@ -9,7 +13,6 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: #396471;
 	line-height: 2.0em;
-	font-size: 1em;
 	float: none;
 	clear: left;
 }
