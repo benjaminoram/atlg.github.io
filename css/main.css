@@ -4,13 +4,22 @@
   
   .hidden{display:none;}
 
+/* inclusive-sans-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inclusive Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../css/inclusive-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
 body {
 	background-repeat: repeat;
 	background-image: url(../img/background-teal.jpg);
 	color: #dbdbdb;
 	text-align: left;
 	font-size: 90%;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Inclusive Sans, Helvetica, Arial, sans-serif;
 	background-color: #396471;
 	line-height: 2.0em;
 	float: none;
