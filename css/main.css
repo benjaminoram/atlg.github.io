@@ -132,10 +132,13 @@ hr {
 /* Typoraphy */
 p, ul, ol { padding-bottom: 0.7em; padding-top: 0em; margin-left: 0; margin-bottom: 0em; margin-right: 0; margin-top: 0em;}
 
+h0, h1, h2, h3 {font-variant-caps: all-small-caps;
+	font-weight: 550;}
+
 h0 {font-size: 250%;}
 h1 {font-size: 140%;}
 h2 {font-size: 120%;}
-h3 {font-weight: bold; font-size: 116%}
+h3 {font-size: 116%}
 h4 {font-size: 106%}
 h5 {font-size: 100%}
 h6 {font-size: 96%}
