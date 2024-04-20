@@ -4,9 +4,9 @@
     --secondary-color: #717171;
 	--tertiary-color: #d1d1d1;
     --font-color: #222222;
-    --bg-color: #9B9485;
-	--bg-image: url(../img/background-light.jpg);
-	--nav-bg-image: url(../img/navbar-background-light.png);
+    --bg-color: #B09A9A;
+	--bg-image: url(../img/background-quartz.jpg);
+	--nav-bg-image: url(../img/navbar-background-quartz.png);
 	--logo-image: url(../img/atlg_logo_sq-black.svg);
   }
   
@@ -106,10 +106,9 @@ a.linkbutton  {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	border-radius: 0.4em;
-	border-style: none;
+	border: 2px dotted var(--font-color);;
 	text-decoration: none;
 	color: var(--font-color);
-	background-color: var(--secondary-color);
 	white-space:nowrap;
 }
 
@@ -119,8 +118,7 @@ a.linkbutton::after  {
 }
 
 a.linkbutton:hover {	
-	color: var(--secondary-bg-color);
-	background-color: var(--tertiary-color);
+	background-color: var(--secondary-color);
 }
 
 hr {
@@ -186,7 +184,7 @@ background-repeat: no-repeat;
 	height: 1.1em;
 	position: relative;
 	width: 5em;
-	margin-bottom: 0.1em;
+	margin-bottom: 0em;
 	margin-right: .6em;
   }
   
@@ -206,10 +204,10 @@ background-repeat: no-repeat;
   }
   
   .slider:before {
-	background-color: var(--secondary-color);
-	bottom: 0.1em;
+	background-color: var(--primary-color);
+	bottom: 0.25em;
 	content: "";
-	height: .6em;
+	height: .4em;
 	left: 0.3em;
 	position: absolute;
 	transition: .4s;
@@ -217,7 +215,7 @@ background-repeat: no-repeat;
   }
   
   input:checked + .slider {
-	background-color: #66bb6a;
+	background-color: #3c703f;
   }
   
   input:checked + .slider:before {
