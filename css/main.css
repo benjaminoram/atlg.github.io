@@ -137,8 +137,8 @@ h0, h1, h2, h3 {font-variant-caps: all-small-caps;
 
 h0 {font-size: 250%;}
 h1 {font-size: 140%;}
-h2 {font-size: 120%;}
-h3 {font-size: 116%}
+h2 {font-size: 125%;}
+h3 {font-size: 115%}
 h4 {font-size: 106%}
 h5 {font-size: 100%}
 h6 {font-size: 96%}
@@ -169,65 +169,15 @@ background-position: left bottom;
 background-repeat: no-repeat;
 }
 
-
-/*Simple css to style it like a toggle switch*/
-
-.theme-switch-wrapper {
-	display: flex;
-	align-items: center;
+.theme-switch  {	
+	padding: 0.15em;
+	padding-top: 0.1em;
+	padding-left: 0.5em;
+	padding-right: 0.1em;
+	margin-right: 0.5em;
+	border-radius: 0.4em;
+	border: 2px dotted var(--font-color);;
+	text-decoration: none;
+	color: var(--font-color);
+}
   
-	em {
-	  margin-left: 1em;
-	  font-size: 1rem;
-	}
-  }
-  .theme-switch {
-	display: inline-block;
-	height: 1.1em;
-	position: relative;
-	width: 5em;
-	margin-bottom: 0em;
-	margin-right: .6em;
-  }
-  
-  .theme-switch input {
-	display:none;
-  }
-  
-  .slider {
-	border: 2px solid var(--primary-color);;
-	bottom: 0;
-	cursor: pointer;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transition: .4s;
-  }
-  
-  .slider:before {
-	background-color: var(--primary-color);
-	bottom: 0.25em;
-	content: "";
-	height: .4em;
-	left: 0.3em;
-	position: absolute;
-	transition: .4s;
-	width: 1.8em;
-  }
-  
-  input:checked + .slider {
-	background-color: #3c703f;
-  }
-  
-  input:checked + .slider:before {
-	transform: translateX(2.4em);
-  }
-  
-  .slider.round {
-	border-radius: 1em;
-  }
-  
-  .slider.round:before {
-	border-radius: 1em;
-  }
