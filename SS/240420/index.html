@@ -25,7 +25,11 @@ html {
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
-
+<script src="https://getinsights.io/js/insights.js"></script>
+<script>
+insights.init('ryFbVJ_b0f1Wb5MW');
+insights.trackPages();
+</script>
 
 
 
@@ -34,10 +38,13 @@ html {
 <body>
 
 <section id="Welcome">
-<br>
-	<div id="mainlogo">
-
-	</div>
+	<article>
+		<br>
+		<br>
+    <br>
+		<img id="logo" src="img/atlg_logo_sq-black.png" alt="ATLG UK Logo - handdrawn letters A T L G arranged inside a square box, with a small UK in the bottom right">
+ <br>
+	</article>
 </section>
 
 <nav id="NavigationBar">
@@ -65,7 +72,7 @@ html {
 		<h1>Welcome</h1>
 		<p>The Architectural Technical Leads Group (ATLG) is a forum for architects and designers to discuss technical issues, share knowledge and resources, and drive improvement in the UK construction industry.</p>
 
-		<p>The group has 180 members in 80 member practices, varying in size from single practitioners to 2000 staff, across all sectors and across the UK.</p>
+		<p>The group is made up of 180 members in 80 member practices varying in size from single practitioners to 2000 staff, across all sectors and across the UK.</p>
 		
 	</article>
 </section>
@@ -260,49 +267,10 @@ The FBS / FHS Group submitted their response to the government on the 27th of Ma
 </section>
 <section id="End">
 	<article>
-
 <br>
 
-	<p>	
-		<div class="theme-switch-wrapper">
-		<label class="theme-switch" for="checkbox">
-	 <input type="checkbox" id="checkbox" />
-	 <div class="slider round"></div>
-   </label>
-	  Dark Mode | Page design by Ben Oram | Revision v21a | Last update a20-04-2024 | © ATLG UK 2024
-   </div>
+	<p>Page design by Ben Oram | Revision v20e | Last update a19-04-2024 | © ATLG UK 2024 
 	</p>	
-
-
-
-	<script>
-
-		const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-		const currentTheme = localStorage.getItem('theme');
-
-		if (currentTheme) {
-			document.documentElement.setAttribute('data-theme', currentTheme);
-		
-			if (currentTheme === 'dark') {
-				toggleSwitch.checked = true;
-			}
-		}
-
-		function switchTheme(e) {
-			if (e.target.checked) {
-				document.documentElement.setAttribute('data-theme', 'dark');
-				localStorage.setItem('theme', 'dark');
-			}
-			else {        document.documentElement.setAttribute('data-theme', 'light');
-				localStorage.setItem('theme', 'light');
-			}    
-		}
-
-		toggleSwitch.addEventListener('change', switchTheme, false);
-		
-	</script>
-
-	</div>
 	
 	</div>
 	</article>
