@@ -2,7 +2,7 @@
 	font-size: calc(1rem + 0.25vw);
 	--primary-color: #000000;
     --secondary-color: #717171;
-	--tertiary-color: #d1d1d1;
+	--tertiary-color: #9b8686;
     --font-color: #222222;
     --bg-color: #B09A9A;
 	--bg-image: url(../img/background-quartz.jpg);
@@ -13,7 +13,7 @@
 [data-theme="dark"] {
 	--primary-color: #ffffff;
     --secondary-color: #5d5d5d;
-	--tertiary-color: #000000;
+	--tertiary-color: #2a4c57;
     --font-color: #ffffff;
     --bg-color: #396471;
 	--bg-image: url(../img/background-blue.jpg);
@@ -108,6 +108,7 @@ a.linkbutton  {
 	border: 2px dotted var(--font-color);;
 	text-decoration: none;
 	color: var(--font-color);
+	background-color: var(--tertiary-color);
 	white-space:nowrap;
 }
 
