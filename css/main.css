@@ -8,6 +8,7 @@
 	--bg-image: url(../img/background-quartz.jpg);
 	--nav-bg-image: url(../img/navbar-background-quartz.png);
 	--logo-image: url(../img/atlg_logo_sq-black.svg);
+	--page-bg-color: #cdbcbc;
   }
   
 [data-theme="dark"] {
@@ -19,6 +20,7 @@
 	--bg-image: url(../img/background-blue.jpg);
 	--nav-bg-image: url(../img/navbar-background-blue.png);
 	--logo-image: url(../img/atlg_logo_sq-white.svg);
+	--page-bg-color: #23373d;
 	}
 
   .hidden{display:none;}
@@ -33,23 +35,35 @@
   }
 
 body {
-	background-repeat: repeat;
-	background-image: var(--bg-image);
-	color: var(--font-color);
+	background-color: var(--page-bg-color);
 	text-align: left;
 	font-size: 90%;
 	font-family: Inclusive Sans, Helvetica, Arial, sans-serif;
-	background-color: var(--bg-color);
 	line-height: 2.0em;
 	float: none;
 	clear: left;
 }
 
-section {
+#carpet{
+	background-repeat: repeat;
+	background-image: var(--bg-image);
+	background-color: var(--bg-color);
+	margin-top: 2em;
+	margin-bottom: 2em;
 	margin-left: 10%;
 	margin-right: 10%;
+	padding-top: .75em;
+}
+
+section {
+	background-repeat: repeat;
+	background-image: var(--bg-image);
+	background-color: var(--bg-color);
+	color: var(--font-color);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 a {
@@ -74,9 +88,8 @@ a:hover {
 	background-image: var(--nav-bg-image);
 	margin-top: 2em;
 	margin-bottom: 1em;
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	padding-left: 3em;
+	padding-right: 3em;
 	/* Pay special attention here! */
 	position: sticky;
 	top: 0em;
