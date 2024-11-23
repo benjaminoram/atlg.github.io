@@ -5,7 +5,9 @@
 	--tertiary-color: #9b8686;
     --font-color: #222222;
     --bg-color: #B09A9A;
+	--bg-color-rug: #cbb8b8;
 	--bg-image: url(../img/background-quartz.jpg);
+	--bg-image-rug: url(../img/background-quartz-rug.jpg);
 	--nav-bg-image: url(../img/navbar-background-quartz.png);
 	--logo-image: url(../img/atlg_logo_sq-black.svg);
 	--page-bg-color: #cdbcbc;
@@ -17,8 +19,10 @@
 	--tertiary-color: #2a4c57;
     --font-color: #ffffff;
     --bg-color: #396471;
+	--bg-color-rug: #2e4e57;
 	--bg-image: url(../img/background-blue.jpg);
 	--nav-bg-image: url(../img/navbar-background-blue.png);
+	--bg-image-rug: url(../img/background-blue-rug.jpg);
 	--logo-image: url(../img/atlg_logo_sq-white.svg);
 	--page-bg-color: #23373d;
 	}
@@ -62,6 +66,23 @@ section {
 	color: var(--font-color);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.Para-Inset {
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+.inset-rug {
+	overflow: hidden;
+	background-repeat: repeat;
+	background-image: var(--bg-image-rug);
+	background-color: var(--bg-color-rug);
+	color: var(--font-color);
+	padding-top: 2em;
+	padding-bottom: 2em;
 	padding-left: 3em;
 	padding-right: 3em;
 }
@@ -156,11 +177,6 @@ h3 {font-size: 115%}
 h4 {font-size: 106%}
 h5 {font-size: 100%}
 h6 {font-size: 96%}
-
-.Para-Inset {
-	margin-left: 2em;
-	margin-bottom: 1em;
-}
 
 /* Columns */
 
